@@ -1,5 +1,7 @@
 # LeadMerlin MCP server
 
+[![LeadMerlin MCP server](https://glama.ai/mcp/servers/HalberdLLC/leadmerlin-mcp/badges/score.svg)](https://glama.ai/mcp/servers/HalberdLLC/leadmerlin-mcp)
+
 Find local businesses by niche and city from any MCP client (Claude, Cursor, VS Code, n8n…), with each one enriched: owner name, emails checked against the mail server, phone line type (mobile / landline / VoIP) and the tech its website runs.
 
 - **Remote server (no install):** `https://api.leadmerlin.com/mcp` (Streamable HTTP)
