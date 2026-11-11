@@ -1,0 +1,13 @@
+{
+  "name": "leadmerlin-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for LeadMerlin: find local businesses by niche and city, enriched with owner names, checked emails, phone line types and website tech.",
+  "type": "module",
+  "bin": { "leadmerlin-mcp": "bin/leadmerlin-mcp.mjs" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "lead-generation", "local-business", "google-maps", "email-finder", "claude", "ai-agents"],
+  "homepage": "https://leadmerlin.com/for-agents/",
+  "repository": { "type": "git", "url": "git+https://github.com/HalberdLLC/leadmerlin-mcp.git" },
+  "license": "MIT"
+}
