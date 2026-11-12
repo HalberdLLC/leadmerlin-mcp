@@ -20,6 +20,7 @@ Find local businesses by niche and city from any MCP client (Claude, Cursor, VS 
 | `enrich_domains` | Enrich up to 100 domains you already have | 1 credit per domain (recently enriched ones are free) |
 | `get_usage` | Plan, credit balance, phone lookup allowance | free |
 | `check_website_tech` | CMS, analytics, ad pixels, chat and booking tools on one site | free, no key needed |
+| `find_website_emails` | Emails published on one site (homepage + contact/about/team pages), with source page and MX check | free, no key needed (daily cap) |
 
 Businesses without a website and off-niche listings (a bar that matched "plumber" by coincidence) are never charged. Always pass `max_leads` to `start_search`.
 
