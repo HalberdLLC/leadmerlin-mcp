@@ -3,15 +3,32 @@
   "name": "com.leadmerlin/leadmerlin",
   "title": "LeadMerlin",
   "description": "Local business leads by niche and city: owner names, checked emails, phone line types, site tech.",
-  "repository": { "url": "https://github.com/HalberdLLC/leadmerlin-mcp", "source": "github" },
+  "repository": {
+    "url": "https://github.com/HalberdLLC/leadmerlin-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://leadmerlin.com/for-agents/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://api.leadmerlin.com/mcp",
       "headers": [
-        { "name": "x-api-key", "description": "LeadMerlin API key (lm_...). 100 free leads at app.leadmerlin.com", "isRequired": true, "isSecret": true }
+        {
+          "name": "x-api-key",
+          "description": "LeadMerlin API key (lm_...). 100 free leads at app.leadmerlin.com",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://leadmerlin.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
       ]
     }
   ]

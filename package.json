@@ -1,6 +1,6 @@
 {
   "name": "leadmerlin-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for LeadMerlin: find local businesses by niche and city, enriched with owner names, checked emails, phone line types and website tech.",
   "type": "module",
   "bin": { "leadmerlin-mcp": "bin/leadmerlin-mcp.mjs" },
