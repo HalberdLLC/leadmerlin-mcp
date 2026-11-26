@@ -7,6 +7,7 @@ Find local businesses by niche and city from any MCP client (Claude, Cursor, VS 
 
 - **Remote server (no install):** `https://api.leadmerlin.com/mcp` (Streamable HTTP)
 - **Local stdio bridge:** `npx -y github:HalberdLLC/leadmerlin-mcp` (Node 18+, no dependencies)
+- **claude.ai / ChatGPT (sign in, no key):** add `https://api.leadmerlin.com/mcp` as a custom connector and sign in with your LeadMerlin email. OAuth 2.1 with PKCE and dynamic client registration.
 - **Auth:** your LeadMerlin API key (`lm_...`) in the `x-api-key` header, or `Authorization: Bearer lm_...`. [Sign up](https://app.leadmerlin.com) for 100 free leads, no card.
 
 ## Tools
